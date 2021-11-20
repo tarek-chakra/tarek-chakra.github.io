@@ -364,6 +364,35 @@
               z-index: 2;
           }
     
+
+          .background {
+            background: url("https://i.ibb.co/rxNLvf9/spacebg1.jpg") repeat-x;
+            height: 5600px;
+            width: 4500px;
+            animation: slide 320s linear infinite;
+          }
+          
+          @keyframes slide{
+            0% {
+              transform: translate3d(0, 0, 0);
+            }
+            100% {
+              transform: translate3d(-1692px, 0px, 0px);
+            }
+          }
+        
+          .title { 
+              position: relative;
+              text-align: center;
+              margin-left: 0px;
+              margin-right: 0px;
+              max-width: 100%;
+              display: block;
+              z-index: 3;
+              animation-name: example;
+              animation-duration: 8s;
+              animation-iteration-count: infinite;
+          }
         }
 
 /* Styling for Learning Planet */
