@@ -59,11 +59,18 @@
         }
 
   .planet-css-label {
+    transition: transform .5s;
+    transition: .5s;
       position: absolute;
       max-width: 340px;
       margin: 285px 490px;
       z-index: 2;
   }
+
+  .planet-css-label:hover {
+    transform: scale(1.2);
+      filter: brightness(150%);
+}
 
   .container2 {
     position: relative;
@@ -86,11 +93,19 @@
         }
 
   .planet-id-label {
+    transition: transform .5s;
+    transition: .5s;
       position: absolute;
       max-width: 600px;
       margin: 550px 0px 0px 1300px;
       z-index: 2;
   }
+
+  .planet-id-label:hover {
+    transform: scale(1.2);
+      filter: brightness(150%);
+}
+
   .container3 {
     position: relative;
           }
@@ -112,11 +127,18 @@
         }
 
   .planet-blog-label {
+    transition: transform .5s;
+    transition: .5s;
       position: absolute;
       max-width: 600px;
       margin: 1020px 0px 0px 180px;
       z-index: 2;
   }
+
+  .planet-blog-label:hover {
+    transform: scale(1.2);
+      filter: brightness(150%);
+}
 
   .container4 {
     position: relative;
@@ -139,11 +161,18 @@
         }
 
   .planet-learn-label {
+    transition: transform .5s;
+    transition: .5s;
       position: absolute;
       max-width: 400px;
       margin: 1040px 0px 0px 990px;
       z-index: 2;
   }
+
+  .planet-learn-label:hover {
+    transform: scale(1.2);
+      filter: brightness(150%);
+}
 
 /* Styling for Learning Planet */
 
