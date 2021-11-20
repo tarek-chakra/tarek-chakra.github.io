@@ -26,6 +26,16 @@
     }
   }
 
+  .title { 
+      position: relative;
+      text-align: center;
+      margin-left: 25%;
+      margin-right: 25%;
+      max-width: 50%;
+      display: block;
+      z-index: 3;
+  }
+
 
   .container1 {
     position: relative;
@@ -36,8 +46,8 @@
     transition: transform .5s;
     transition: .5s;
     margin: 50px 0px 0px 420px;
-    max-width: 420px;
-    max-height: 420px;
+    max-width: 480px;
+    max-height: 480px;
     position: absolute;
     filter: brightness(75%)
     z-index: 1;
@@ -50,8 +60,8 @@
 
   .planet-css-label {
       position: absolute;
-      max-width: 300px;
-      margin: 250px 480px;
+      max-width: 340px;
+      margin: 285px 490px;
       z-index: 2;
   }
 
@@ -134,3 +144,56 @@
       margin: 1040px 0px 0px 990px;
       z-index: 2;
   }
+
+/* Styling for Learning Planet */
+
+.main {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: fixed;
+    text-align: center;
+    color: black;
+      }
+  
+.box-for-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    background-color: rgb(184, 0, 0),
+       }
+}
+
+.h1class {
+    background-color: #80ced6;
+  }
+  
+ .divclass {
+    font-family: Arial;
+    border-radius: 25px;
+    background-color: #ffffff81;
+    position: absolute;
+    text-align: center;
+    margin: 7.5% 30% 0% 30%;
+    padding: 40px 100px 40px 100px;
+  }
+
+  .backhome {
+    font-family: Arial;
+    border-radius: 25px;
+    background-color: #1025e09a;
+    position: absolute;
+    text-align: center;
+    margin: 1% 40% 0% 41.5%;
+    padding: 40px 40px 40px 40px;
+    z-index: 4;
+    transition: .2s;
+  }
+
+  .backhome:hover {
+    background-color: rgb(41, 3, 148); 
+    transform: scale(1.1);
+  }
+  a {
+    color: rgb(255, 193, 224);
+  }
+}
