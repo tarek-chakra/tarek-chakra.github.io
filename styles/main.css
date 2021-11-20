@@ -198,6 +198,174 @@
       filter: brightness(150%);
 }
 
+/* Homepage Mobile Responsiveness */
+
+@media screen and (max-width: 1900px) {
+    .planet-learn {    
+        transition: transform .5s;
+        transition: .5s;
+        position: absolute;
+        margin: 1250px 10% 0px 50%;
+        max-width: 380px;
+        max-height: 380px;
+        filter: brightness(65%);
+        z-index: 1;
+      }
+
+      .planet-learn-label {
+        transition: transform .5s;
+        transition: .5s;
+          position: absolute;
+          max-width: 380px;
+          margin: 1430px 10% 0px 50%;
+          z-index: 2;
+      }
+
+      .planet-css {    
+        transition: transform .5s;
+        transition: .5s;
+        margin: 10px 0px 0px 20%;
+        max-width: 380px;
+        max-height: 380px;
+        position: absolute;
+        filter: brightness(65%);
+        z-index: 1;
+      }    
+    
+      .planet-css-label {
+        transition: transform .5s;
+        transition: .5s;
+          position: absolute;
+          max-width: 380px;
+          margin: 180px 0px 0px 20%;
+          z-index: 2;
+      }
+
+      .planet-blog {    
+        transition: transform .5s;
+        transition: .5s;
+        position: absolute;
+        margin: 900px 0px 0px 30px;
+        max-width: 600px;
+        max-height: 600px;
+        filter: brightness(65%);
+        z-index: 1;
+      }
+    
+      .planet-blog-label {
+        transition: transform .5s;
+        transition: .5s;
+          position: absolute;
+          max-width: 600px;
+          margin: 1200px 0px 0px 30px;
+          z-index: 2;
+      }
+
+      .planet-id {    
+        transition: transform .5s;
+        transition: .5s;
+        position: absolute;
+        margin: 350px 10% 0px 50%;
+        max-width: 660px;
+        max-height: 660px;
+        filter: brightness(65%);
+        z-index: 1;
+      }
+    
+      .planet-id-label {
+        transition: transform .5s;
+        transition: .5s;
+          position: absolute;
+          max-width: 660px;
+          margin: 670px 10% 0px 50%;
+          z-index: 2;
+      }
+
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .planet-learn {    
+            transition: transform .5s;
+            transition: .5s;
+            position: absolute;
+            margin: 1550px 20% 0px 20%;
+            max-width: 380px;
+            max-height: 380px;
+            filter: brightness(65%);
+            z-index: 1;
+          }
+    
+          .planet-learn-label {
+            transition: transform .5s;
+            transition: .5s;
+              position: absolute;
+              max-width: 400px;
+              margin: 1730px 20% 0px 19.3%;
+              z-index: 2;
+          }
+    
+          .planet-css {    
+            transition: transform .5s;
+            transition: .5s;
+            margin: 10px 0px 0px 20%;
+            max-width: 380px;
+            max-height: 380px;
+            position: absolute;
+            filter: brightness(65%);
+            z-index: 1;
+          }    
+        
+          .planet-css-label {
+            transition: transform .5s;
+            transition: .5s;
+              position: absolute;
+              max-width: 380px;
+              margin: 180px 0px 0px 20%;
+              z-index: 2;
+          }
+    
+          .planet-blog {    
+            transition: transform .5s;
+            transition: .5s;
+            position: absolute;
+            margin: 900px 0px 0px 30px;
+            max-width: 600px;
+            max-height: 600px;
+            filter: brightness(65%);
+            z-index: 1;
+          }
+        
+          .planet-blog-label {
+            transition: transform .5s;
+            transition: .5s;
+              position: absolute;
+              max-width: 600px;
+              margin: 1200px 0px 0px 30px;
+              z-index: 2;
+          }
+    
+          .planet-id {    
+            transition: transform .5s;
+            transition: .5s;
+            position: absolute;
+            margin: 470px 10% 0px 50%;
+            max-width: 400px;
+            max-height: 400px;
+            filter: brightness(65%);
+            z-index: 1;
+          }
+        
+          .planet-id-label {
+            transition: transform .5s;
+            transition: .5s;
+              position: absolute;
+              max-width: 400px;
+              margin: 670px 10% 0px 50%;
+              z-index: 2;
+          }
+    
+        }
+
 /* Styling for Learning Planet */
 
 .main {
@@ -206,15 +374,17 @@
     position: fixed;
     text-align: center;
     color: black;
+    
       }
   
 .box-for-text {
     position: absolute;
-    top: 50%;
-    left: 50%;    
+    top: 45%;
+    left: 45%;    
     background-color: rgb(184, 0, 0),
        }
-}
+
+       
 
 .h1class {
     background-color: #80ced6;
@@ -226,7 +396,7 @@
     background-color: #ffffff81;
     position: absolute;
     text-align: center;
-    margin: 7.5% 30% 0% 30%;
+    margin: 5% 30% 0% 30%;
     padding: 40px 100px 40px 100px;
   }
 
@@ -236,8 +406,8 @@
     background-color: #1025e09a;
     position: absolute;
     text-align: center;
-    margin: 1% 40% 0% 41.5%;
-    padding: 40px 40px 40px 40px;
+    margin: 1% 45% 0% 1%;
+    padding: 10px 10px 10px 10px;
     z-index: 4;
     transition: .2s;
   }
@@ -249,4 +419,84 @@
   a {
     color: rgb(255, 193, 224);
   }
-}
+
+
+@media screen and (max-width: 1800px) {
+    .divclass {
+        font-family: Arial;
+        border-radius: 25px;
+        background-color: #ffffff81;
+        position: absolute;
+        text-align: center;
+        margin: 10% 20% 20% 20%;
+        padding: 40px 20px 40px 20px;
+      }
+      .main {
+        margin: 0 !important;
+        padding: 0 !important;
+        position: fixed;
+        text-align: center;
+        color: black;
+        height: 100%;
+        
+          }
+      
+    .box-for-text {
+        position: absolute;
+        top: 20%;
+        left: 20%;    
+        background-color: rgb(184, 0, 0),
+           }
+
+    .backhome {
+            font-family: Arial;
+            border-radius: 25px;
+            background-color: #1025e09a;
+            position: absolute;
+            text-align: center;
+            margin: 1% 1% 0% 2%;
+            padding: 0px 10px 0px 10px;
+            z-index: 4;
+            transition: .2s;
+          }
+  }
+
+  @media screen and (max-width: 900px) {
+    .divclass {
+        font-family: Arial;
+        border-radius: 25px;
+        background-color: #ffffff81;
+        position: absolute;
+        text-align: center;
+        margin: 18% 20% 20% 20%;
+        padding: 20px 20px 20px 20px;
+      }
+      .main {
+        margin: 0 !important;
+        padding: 0 !important;
+        position: fixed;
+        text-align: center;
+        color: black;
+        height: 100%;
+        
+          }
+      
+    .box-for-text {
+        position: absolute;
+        top: 20%;
+        left: 20%;    
+        background-color: rgb(184, 0, 0),
+           }
+
+    .backhome {
+            font-family: Arial;
+            border-radius: 25px;
+            background-color: #1025e09a;
+            position: absolute;
+            text-align: center;
+            margin: 1% 1% 0% 2%;
+            padding: 0px 10px 0px 10px;
+            z-index: 4;
+            transition: .2s;
+          }
+  }
