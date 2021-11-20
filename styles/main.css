@@ -367,8 +367,8 @@
 
           .background {
             background: url("https://i.ibb.co/rxNLvf9/spacebg1.jpg") repeat-x;
-            height: 5600px;
-            width: 4500px;
+            height: 5900px;
+            width: 4800px;
             animation: slide 320s linear infinite;
           }
           
@@ -377,7 +377,7 @@
               transform: translate3d(0, 0, 0);
             }
             100% {
-              transform: translate3d(-1692px, 0px, 0px);
+              transform: translate3d(-1792px, 0px, 0px);
             }
           }
         
