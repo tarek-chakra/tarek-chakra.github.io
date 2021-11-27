@@ -451,7 +451,25 @@
   a {
     color: rgb(255, 193, 224);
   }
+  .blogbutton {
+    font-family: Arial;
+    border-radius: 25px;
+    background-color: #af0000d7;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    z-index: 4;
+    transition: .2s;
+  }
 
+  .blogbutton:hover {
+    background-color: rgb(109, 7, 7); 
+    transform: scale(1.1);
+  }
+  a:link {
+    text-decoration: none;
+}
 
 @media screen and (max-width: 1800px) {
     .divclass {
